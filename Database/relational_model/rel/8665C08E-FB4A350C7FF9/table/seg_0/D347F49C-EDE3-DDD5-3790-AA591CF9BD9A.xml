@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D347F49C-EDE3-DDD5-3790-AA591CF9BD9A" name="Login_Data">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 21:49:49 UTC</createdTime>
+<generatorID>46F134C5-9EF1-D3E1-543C-4AA25EF041E2</generatorID>
+<ownerDesignName>relational_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Login_Id" id="EB80EF1B-561D-355E-E33B-D0923136E435">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 21:49:49 UTC</createdTime>
+<generatorID>E496B2BA-E037-C9DD-652B-08A3E2D6C017</generatorID>
+<ownerDesignName>relational_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Login" id="7A711BF0-717C-B932-0481-193C83020A8C">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 21:49:49 UTC</createdTime>
+<generatorID>5F6ED536-4485-F793-48DA-6E066932AE5E</generatorID>
+<ownerDesignName>relational_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Password" id="9E379884-9492-EC93-60AA-E9EE994597E8">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 21:49:49 UTC</createdTime>
+<generatorID>D0B75BFB-6F20-B202-334B-D8B4AD996A2D</generatorID>
+<ownerDesignName>relational_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2212D14D-7192-EC96-6438-0563890A5506" name="Login_Data_PK">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 21:49:49 UTC</createdTime>
+<generatorID>507F9D58-F672-98D0-3A43-BECC12FC37B8</generatorID>
+<ownerDesignName>relational_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB80EF1B-561D-355E-E33B-D0923136E435"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

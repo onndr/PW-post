@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="99A3C4CE-FE69-2AAB-69D4-0461FAE77769" name="Addresses">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 20:14:23 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="8665C08E-357B-08E9-5FE8-FB4A350C7FF9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Address_Id" id="79F413A1-CD5D-B68F-8958-BF203880ACD5">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 20:14:39 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="8665C08E-357B-08E9-5FE8-FB4A350C7FF9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Town" id="33CF64EB-E0B9-F08F-A2AA-64CECB3AA4EB">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 20:15:17 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="8665C08E-357B-08E9-5FE8-FB4A350C7FF9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Street" id="B3BA037B-498E-9E0E-2499-2C0D5168F212">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 20:16:45 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="8665C08E-357B-08E9-5FE8-FB4A350C7FF9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Building_Number" id="6BB5C92B-A495-FC17-C9C7-9E3011B5D688">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 20:17:10 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="8665C08E-357B-08E9-5FE8-FB4A350C7FF9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Appartment_Number" id="D127ADB3-0C1A-C9B4-E7D3-37EB9974C629">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 20:18:42 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="8665C08E-357B-08E9-5FE8-FB4A350C7FF9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Postal_Code" id="0FA755F6-9041-BB17-660D-B20F0DB31B02">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 20:19:23 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="8665C08E-357B-08E9-5FE8-FB4A350C7FF9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Country_Id" id="75085AD0-0DA0-701F-D518-5D05B3247865">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 21:42:53 UTC</createdTime>
+<generatorID>AA74B734-6FA7-5EAD-FC50-8A55195022CA</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="8665C08E-357B-08E9-5FE8-FB4A350C7FF9" value="true"/>
+</engineerTo>
+<referedAttribute>9CA22C56-DD9D-7C2B-F2F7-A3324E0B2204</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="71B63BE3-4171-BA31-76DC-CFEB3E5C3DE4" name="Addresses PK">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 20:15:15 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8665C08E-357B-08E9-5FE8-FB4A350C7FF9" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>79F413A1-CD5D-B68F-8958-BF203880ACD5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

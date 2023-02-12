@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="537D0B10-448D-8CCC-D96B-848966CC990C" name="Service_Places">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 21:49:49 UTC</createdTime>
+<generatorID>B3A5892C-B8C7-F325-374F-26A2FDD3175B</generatorID>
+<ownerDesignName>relational_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SP_Id" id="331E4038-9EF6-BA51-40C4-538C14B7A04E">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 21:49:49 UTC</createdTime>
+<generatorID>3D31E4BA-3A15-9210-DED7-2DA14D305132</generatorID>
+<ownerDesignName>relational_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Address_Id" id="C5C9EB7E-FD83-58F3-0844-25592F3E5205">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 23:15:42 UTC</createdTime>
+<ownerDesignName>relational_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3EB367C6-295A-76F6-D0D6-390662C7F6C4" referredColumn="D5ED098B-5FB5-281D-C24E-F25B5258D358"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="18CAEF80-593B-A2AE-B350-DB6009F3F26D" name="Service_Places_PK">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 21:49:49 UTC</createdTime>
+<generatorID>888D78A3-5A69-88F9-2C9E-0FCD65832923</generatorID>
+<ownerDesignName>relational_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="331E4038-9EF6-BA51-40C4-538C14B7A04E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="682B5200-F847-E50D-9572-2C2EC27CD568" name="SP_Addresses_FK">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 23:15:42 UTC</createdTime>
+<generatorID>71B63BE3-4171-BA31-76DC-CFEB3E5C3DE4</generatorID>
+<ownerDesignName>relational_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5C9EB7E-FD83-58F3-0844-25592F3E5205"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

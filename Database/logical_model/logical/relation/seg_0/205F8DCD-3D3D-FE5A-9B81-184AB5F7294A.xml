@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Sent_packages" directorySegmentName="seg_0" id="205F8DCD-3D3D-FE5A-9B81-184AB5F7294A">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 21:53:03 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="8665C08E-357B-08E9-5FE8-FB4A350C7FF9" value="true"/>
+</engineerTo>
+<sourcePk>E05B50BB-63F4-A4B9-4AA3-D749D3FECE6C</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Sent</nameOnSource>
+<nameOnTarget>Were sent by</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A5BA1414-656F-CB89-197F-1318BC831035</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1B6BE70E-D56B-F6CE-53F3-B4446322241F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

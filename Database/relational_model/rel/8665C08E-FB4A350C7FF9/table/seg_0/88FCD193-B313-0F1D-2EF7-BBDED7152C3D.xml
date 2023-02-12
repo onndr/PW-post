@@ -1,0 +1,175 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="88FCD193-B313-0F1D-2EF7-BBDED7152C3D" name="Clients">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 21:49:49 UTC</createdTime>
+<generatorID>A5BA1414-656F-CB89-197F-1318BC831035</generatorID>
+<ownerDesignName>relational_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Client_ID" id="16B5E954-4244-F7E5-6764-73C502F6EED1">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 21:49:49 UTC</createdTime>
+<generatorID>F53F31C0-C1EC-C00C-F379-6B2479C1C84B</generatorID>
+<ownerDesignName>relational_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="8E72BEAF-A9FA-7533-3F40-35AE1714AC79">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 21:49:49 UTC</createdTime>
+<generatorID>60438ABD-A178-BDF7-A0E2-DBDC153CC47A</generatorID>
+<ownerDesignName>relational_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Surname" id="8DF95F37-C255-578B-43BB-82A31EFAC0FC">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 21:49:49 UTC</createdTime>
+<generatorID>B56F3CA9-B8E8-C7B8-3551-F98BD3A0327F</generatorID>
+<ownerDesignName>relational_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="CAF55035-64E9-8EC1-74EE-1D5E40DC52B3">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 21:49:49 UTC</createdTime>
+<generatorID>41D2516F-6DCA-3B22-A091-E8D1DB6D538B</generatorID>
+<ownerDesignName>relational_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Phone_Number" id="3B31FF43-7E10-C82C-A841-03B74DD4052D">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 21:49:49 UTC</createdTime>
+<generatorID>3A69C258-B457-57C9-3245-94351D850AEB</generatorID>
+<ownerDesignName>relational_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 CHAR</dataTypeSize>
+<ownDataTypeParameters>9 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Addresses_Address_Id" id="3342E347-8597-B62F-94F8-590D9CF52569">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 21:49:49 UTC</createdTime>
+<generatorID>6EC2C532-A679-38F5-1B03-6CEBC694777E</generatorID>
+<ownerDesignName>relational_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A948460-AF42-BDDA-C644-CBA63D8FE6AC" referredColumn="D5ED098B-5FB5-281D-C24E-F25B5258D358"/>
+</associations>
+</Column>
+<Column name="Login_Data_Login_Id" id="42CE6463-9562-0B2E-E708-0F9EEA6150A0">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 21:49:49 UTC</createdTime>
+<generatorID>D00963F0-CAC3-841C-1592-628D2C2580C0</generatorID>
+<ownerDesignName>relational_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="17B41DC9-F648-8576-4F48-5099B28F10F6" referredColumn="EB80EF1B-561D-355E-E33B-D0923136E435"/>
+</associations>
+</Column>
+<Column name="Countries_Country_Id" id="56461F11-C84F-64B2-9C5D-EC53C020F7B0">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 21:49:49 UTC</createdTime>
+<generatorID>91C26E86-F023-B6FB-4EB4-A9483B003468</generatorID>
+<ownerDesignName>relational_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C00E0086-7A91-5D59-E99F-57C87C8D11F1" referredColumn="2A2CDC71-E9D2-A488-845E-BF3200ACBA7D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CB972EA4-33A7-851D-2EE3-D0C8E643208A" name="Clients_PK">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 21:49:49 UTC</createdTime>
+<generatorID>E05B50BB-63F4-A4B9-4AA3-D749D3FECE6C</generatorID>
+<ownerDesignName>relational_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16B5E954-4244-F7E5-6764-73C502F6EED1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8790BA2C-796F-9CFD-29CB-55CD20DAA0BC" name="Clients__IDX">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 21:49:49 UTC</createdTime>
+<ownerDesignName>relational_model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>8CEEE152-83AF-9B84-2107-ACFEDC0D99A5</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="42CE6463-9562-0B2E-E708-0F9EEA6150A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6899DB71-2C6C-9936-39FA-A052A96917F1" name="Clients_Countries_FK">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 21:49:49 UTC</createdTime>
+<generatorID>7144EA74-35B4-7475-B645-83B2C30610D0</generatorID>
+<ownerDesignName>relational_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56461F11-C84F-64B2-9C5D-EC53C020F7B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D918B718-14F5-133F-6515-B7D522773F58" name="Clients_Login_Data_FK">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 21:49:49 UTC</createdTime>
+<generatorID>8CEEE152-83AF-9B84-2107-ACFEDC0D99A5</generatorID>
+<ownerDesignName>relational_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42CE6463-9562-0B2E-E708-0F9EEA6150A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="440C5F8B-5E7D-31DB-018E-CAAD42BFE34A" name="Clients_Addresses_FK">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 21:49:49 UTC</createdTime>
+<generatorID>AEEACE1B-ED32-6EA8-56B8-3DB657151D7D</generatorID>
+<ownerDesignName>relational_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3342E347-8597-B62F-94F8-590D9CF52569"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

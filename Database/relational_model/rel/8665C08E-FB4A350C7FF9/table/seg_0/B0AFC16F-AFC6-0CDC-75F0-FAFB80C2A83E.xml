@@ -1,0 +1,204 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B0AFC16F-AFC6-0CDC-75F0-FAFB80C2A83E" name="Employees">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 21:49:49 UTC</createdTime>
+<generatorID>F8611294-48B7-87A8-DE97-CE5FBB127755</generatorID>
+<ownerDesignName>relational_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Employee_Id" id="B0224848-FE83-DFDD-50B5-24D7E1D2B8BF">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 21:49:49 UTC</createdTime>
+<generatorID>39FF6D08-A873-E5E6-EF29-A8872C200651</generatorID>
+<ownerDesignName>relational_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="6733B6D8-35BF-7A42-F6FE-9CC4AC352867">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 21:49:49 UTC</createdTime>
+<generatorID>94E191B5-9A45-2FD3-8CC3-46C783910F7E</generatorID>
+<ownerDesignName>relational_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Surname" id="C5410D9C-CBD5-4A8C-AA24-321197806AEC">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 21:49:49 UTC</createdTime>
+<generatorID>1945963B-54D2-2D69-0973-47F402EF0C0D</generatorID>
+<ownerDesignName>relational_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Salary" id="AA2EA0F7-2A6C-A6D2-AF36-D175E7C1C1FD">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 21:49:49 UTC</createdTime>
+<generatorID>B9E49860-840A-884B-59DA-846FE3DA9D94</generatorID>
+<ownerDesignName>relational_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,2,10</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Position_Id" id="F59FB8D7-E1E6-D106-9E01-69C1C7A47679">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 21:49:49 UTC</createdTime>
+<generatorID>BF536412-6405-C764-D31E-D152935DBACE</generatorID>
+<ownerDesignName>relational_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="078900E7-65BD-C754-133F-93993534B404" referredColumn="5444D1E8-AF5C-D94B-6BB2-E2CEA0EE310F"/>
+</associations>
+</Column>
+<Column name="Service_Place_Id" id="2F2E4ABB-5591-C5D2-EF89-41AE80A9D023">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 21:49:49 UTC</createdTime>
+<generatorID>04E70AB2-AD2F-9C5C-6118-459A10A2B007</generatorID>
+<ownerDesignName>relational_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D32512B4-EFC6-3715-C137-A437137F48D4" referredColumn="331E4038-9EF6-BA51-40C4-538C14B7A04E"/>
+</associations>
+</Column>
+<Column name="Login_Data_Login_Id" id="A2197644-7CD3-2794-11B8-942727C31EE9">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 21:49:49 UTC</createdTime>
+<generatorID>8525CE52-0A59-3926-3346-5000C30D58AA</generatorID>
+<ownerDesignName>relational_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1AA74ECA-3E5B-0C29-293B-638D99C5A71E" referredColumn="EB80EF1B-561D-355E-E33B-D0923136E435"/>
+</associations>
+</Column>
+<Column name="Cooperative_Node_ID" id="256E4AFE-2BA4-F645-135A-1EBDD629964A">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 22:21:43 UTC</createdTime>
+<ownerDesignName>relational_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Node_Id" id="0391392F-05F0-01E3-80E4-D9D7F5E97841">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 22:51:17 UTC</createdTime>
+<generatorID>DF3CB069-3EF1-2F8F-FD06-4EF0A228421A</generatorID>
+<ownerDesignName>relational_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C5D36C3-03B6-267C-4E2C-5D0C2A186DB9" referredColumn="8859FB4C-0325-4DC6-4940-AA3DDA615117"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CAC4D1EA-4FAC-BBB5-A7D6-63E6570C2416" name="Employees_PK">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 21:49:49 UTC</createdTime>
+<generatorID>D101CD6C-E10D-98A2-584D-2F8880C25DD8</generatorID>
+<ownerDesignName>relational_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0224848-FE83-DFDD-50B5-24D7E1D2B8BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="329C608A-A643-A639-DBFB-60EBE079BD7D" name="Employees__IDX">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 21:49:49 UTC</createdTime>
+<ownerDesignName>relational_model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>B88123E1-C3A8-CFDE-FEF2-578A870D58C6</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="A2197644-7CD3-2794-11B8-942727C31EE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A5D7B457-0E4E-FE3F-721C-D91BB478979E" name="Employees_Login_Data_FK">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 21:49:49 UTC</createdTime>
+<generatorID>B88123E1-C3A8-CFDE-FEF2-578A870D58C6</generatorID>
+<ownerDesignName>relational_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2197644-7CD3-2794-11B8-942727C31EE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5A8E895-C75B-A631-C22D-F048FDFB5C4E" name="Employees_Service_Places_FK">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 21:49:49 UTC</createdTime>
+<generatorID>B2A871BF-D971-242B-8754-E0C42AC2E987</generatorID>
+<ownerDesignName>relational_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F2E4ABB-5591-C5D2-EF89-41AE80A9D023"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="96E77FA8-AA1F-D88E-C673-D8CFE2A47FFF" name="Employees_Positions_FK">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 21:49:49 UTC</createdTime>
+<generatorID>A16BD73C-E766-6BA2-3954-61FB9D2F8022</generatorID>
+<ownerDesignName>relational_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F59FB8D7-E1E6-D106-9E01-69C1C7A47679"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C1644738-6333-DA69-7D23-C5387C8644B7" name="Employees_Coop_Nodes_FK">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 22:21:43 UTC</createdTime>
+<generatorID>82414C03-7D43-75B9-DF29-7F402C9B0115</generatorID>
+<ownerDesignName>relational_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0391392F-05F0-01E3-80E4-D9D7F5E97841"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

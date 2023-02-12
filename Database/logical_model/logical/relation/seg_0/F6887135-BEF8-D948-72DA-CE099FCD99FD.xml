@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Nodes_Packs_History" directorySegmentName="seg_0" id="F6887135-BEF8-D948-72DA-CE099FCD99FD">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 22:03:44 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="8665C08E-357B-08E9-5FE8-FB4A350C7FF9" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Were in</nameOnSource>
+<nameOnTarget>Had</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>1B6BE70E-D56B-F6CE-53F3-B4446322241F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D23F34B9-0B6C-397E-421A-9ABD10FD3004</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="In_Datetime" id="E31C1DFD-34DA-7D4C-F54F-7BA9B5FFC64E">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 22:05:27 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="8665C08E-357B-08E9-5FE8-FB4A350C7FF9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="Out_Datetime" id="CDAD0172-5E18-ADA4-238D-07E08A032AD6">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 22:06:27 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="8665C08E-357B-08E9-5FE8-FB4A350C7FF9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="Entry_Id" id="06F3EE34-6B87-ACBC-D373-807C518005BD">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 22:06:49 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="8665C08E-357B-08E9-5FE8-FB4A350C7FF9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="Description" id="283697C4-3E64-5104-C753-B5B0D026FED7">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 22:07:07 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="8665C08E-357B-08E9-5FE8-FB4A350C7FF9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

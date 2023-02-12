@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Packages_In_Service_Place" directorySegmentName="seg_0" id="B73F3165-675B-4B5A-10B5-EAC551454E0E">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 21:10:31 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="8665C08E-357B-08E9-5FE8-FB4A350C7FF9" value="true"/>
+</engineerTo>
+<sourcePk>1BAEE2E8-7B6C-0DAB-DBD3-35E849E76EFE</sourcePk>
+<targetPk>888D78A3-5A69-88F9-2C9E-0FCD65832923</targetPk>
+<identifying>false</identifying>
+<nameOnSource>Is in</nameOnSource>
+<nameOnTarget>Has</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>1B6BE70E-D56B-F6CE-53F3-B4446322241F</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>B3A5892C-B8C7-F325-374F-26A2FDD3175B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

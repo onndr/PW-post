@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AE913330-5CEC-3129-D92B-581CF6B64170" containerWithKeyObject="0C7669F6-0548-18C6-B557-666EA6EFB0B4" localFKIndex="A3C1C2AB-92C8-F072-9986-040EE46017CC" name="Packages_Addresses_FKv1">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 21:49:49 UTC</createdTime>
+<generatorID>87928D82-CFD7-1AE4-7E3F-B46CE8E0092B</generatorID>
+<ownerDesignName>relational_model</ownerDesignName>
+<referredTableLongName>Addresses</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>06CE539B-7395-133B-CB81-D25DA4BF66AE</referredTableID>
+<keyObject>79BF99B8-4797-9702-3B23-33B977F31E11</keyObject>
+<referredKeyID>79BF99B8-4797-9702-3B23-33B977F31E11</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Address_Id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

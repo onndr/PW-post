@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B6CE8266-FEBF-CBF4-60F7-BC49700DA1B7" name="Coop_Nodes">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 22:10:42 UTC</createdTime>
+<generatorID>D23F34B9-0B6C-397E-421A-9ABD10FD3004</generatorID>
+<ownerDesignName>relational_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Node_Id" id="2868F375-A1CA-61EB-56C1-D0259999A600">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 22:10:42 UTC</createdTime>
+<generatorID>90FA4607-F5CB-D697-CB68-7A38FFCB641D</generatorID>
+<ownerDesignName>relational_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="06F9BCE8-1595-1373-D650-A391F409F132">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 22:10:42 UTC</createdTime>
+<generatorID>ACF10308-2062-8877-16F2-6EA878FA5A05</generatorID>
+<ownerDesignName>relational_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cooperative_Node_ID" id="8859FB4C-0325-4DC6-4940-AA3DDA615117">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 22:10:42 UTC</createdTime>
+<ownerDesignName>relational_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Address_Id" id="0F3629FC-30FD-B981-5D4B-29DBDA0556F0">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 22:44:36 UTC</createdTime>
+<generatorID>F5D589C1-CB33-9545-5EF0-5E8B0FC4C189</generatorID>
+<ownerDesignName>relational_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1A2B7D7-F16E-D4D7-C086-68BFC5CD41E7" referredColumn="D5ED098B-5FB5-281D-C24E-F25B5258D358"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ED2AAAF1-BB30-52F7-215B-6B192F315DE1" name="Coop_Nodes_PK">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 22:51:17 UTC</createdTime>
+<generatorID>B31006CF-4B5A-2BD0-6602-6BDBC40D033C</generatorID>
+<ownerDesignName>relational_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2868F375-A1CA-61EB-56C1-D0259999A600"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2CCF2BC3-EF96-F646-5F1E-89094CD16B2A" name="Cooperative_Node_PK">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 22:10:42 UTC</createdTime>
+<ownerDesignName>relational_model</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="8859FB4C-0325-4DC6-4940-AA3DDA615117"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="51D2A4B8-6F4C-9451-2B61-E13A6461D5B3" name="Cooperative_Node__IDX">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 22:44:36 UTC</createdTime>
+<ownerDesignName>relational_model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>23E74727-5CA5-D6AE-6AB9-22A5657DB420</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="0F3629FC-30FD-B981-5D4B-29DBDA0556F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="17BDC356-3294-52CA-C08C-36A0039996FE" name="Coop_Nodes_Addresses_FK">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 22:44:36 UTC</createdTime>
+<generatorID>23E74727-5CA5-D6AE-6AB9-22A5657DB420</generatorID>
+<ownerDesignName>relational_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F3629FC-30FD-B981-5D4B-29DBDA0556F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

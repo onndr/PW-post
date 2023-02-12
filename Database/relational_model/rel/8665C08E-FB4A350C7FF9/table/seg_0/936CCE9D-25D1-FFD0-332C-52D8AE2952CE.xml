@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="936CCE9D-25D1-FFD0-332C-52D8AE2952CE" name="SP_Packs_History">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 21:49:49 UTC</createdTime>
+<ownerDesignName>relational_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Package_Id" id="6DEE6069-3813-4DD2-3104-B9EE57B54147">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 21:49:49 UTC</createdTime>
+<ownerDesignName>relational_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C74C337-20AE-A04B-E192-15B2B400F5C5" referredColumn="8C81C745-A4AA-2D0D-243D-8005283BB404"/>
+</associations>
+</Column>
+<Column name="Service_Place_Id" id="9D3BE4FB-EA39-ADDA-2815-4D14631B7588">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 21:49:49 UTC</createdTime>
+<ownerDesignName>relational_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="060F5531-2438-AC19-FA1B-6636110D2BA3" referredColumn="331E4038-9EF6-BA51-40C4-538C14B7A04E"/>
+</associations>
+</Column>
+<Column name="In_Datetime" id="14D9931A-5EEA-ADEC-6692-D538F7041C48">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 21:49:49 UTC</createdTime>
+<generatorID>5ADC566C-79B5-F432-6BB9-D40AF6219755</generatorID>
+<ownerDesignName>relational_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="Id_status" id="50433D8F-3D08-DA08-CCD5-BF949A4E6BBB">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 21:49:49 UTC</createdTime>
+<generatorID>1576DA7A-2C27-63E9-AC73-DAD324E9CB79</generatorID>
+<ownerDesignName>relational_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="Description" id="F6C7DB30-D56F-8584-CBB1-14CF0DF502C2">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 21:49:49 UTC</createdTime>
+<generatorID>6B430BC2-BCD3-198C-C1E4-20CDCBD61DA9</generatorID>
+<ownerDesignName>relational_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+<Column name="Out_Datetime" id="FAC25E15-EC4D-6D93-ED2E-A4F27D01D2AF">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 22:21:43 UTC</createdTime>
+<generatorID>FDDACEDA-C900-1E2A-C2FD-34553C49D401</generatorID>
+<ownerDesignName>relational_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5BCEB3C6-A88F-F9A6-D176-C42B1D223A3B" name="Statuses_History_PK">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 21:49:49 UTC</createdTime>
+<ownerDesignName>relational_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6DEE6069-3813-4DD2-3104-B9EE57B54147"/>
+<colUsage columnID="9D3BE4FB-EA39-ADDA-2815-4D14631B7588"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F47CC2EA-A240-EB6C-AF66-9FF1E104A9CB" name="Statuses_Packs_FK">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 21:49:49 UTC</createdTime>
+<generatorID>97CF8280-43DE-D496-E085-EFBB4CE16634</generatorID>
+<ownerDesignName>relational_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6DEE6069-3813-4DD2-3104-B9EE57B54147"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F2D02D37-DCDB-2946-FFCE-A82C1DB248F9" name="Statuses_SP_FK">
+<createdBy>onndr</createdBy>
+<createdTime>2023-01-05 21:49:49 UTC</createdTime>
+<generatorID>97CF8280-43DE-D496-E085-EFBB4CE16634</generatorID>
+<ownerDesignName>relational_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D3BE4FB-EA39-ADDA-2815-4D14631B7588"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
